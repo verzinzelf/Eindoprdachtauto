@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package autopack;
 
 /**
@@ -11,5 +5,40 @@ package autopack;
  * @author Pascal
  */
 public class Auto {
+    private String plaatje, merk, type, vermogen, cilinderinhoud, gewicht;  
+    
+    public Auto(String plaatje, String merk, String type, String vermogen, String cilinderinhoud, String gewicht){
+    this.plaatje = plaatje;
+    this.merk = merk;
+    this.type = type;
+    this.vermogen = vermogen;
+    this.cilinderinhoud = cilinderinhoud;
+    this.gewicht = gewicht;
+           
+    }
+    public String getPlaatje(){
+        return plaatje;
+    }
+    
+    public String getMerk(){
+        return merk;
+    }
+    
+    public String getType(){
+        return type;
+    }
+    
+    public String getVermogen(){
+        return vermogen;
+    }
+    
+    public String getcilinderinhoud(){
+        return cilinderinhoud;
+    }
+    
+    public String getGewicht(){
+        return gewicht;
+    }
+    
     
 }

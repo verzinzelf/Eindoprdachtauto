@@ -6,10 +6,10 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="index.css" rel="stylesheet" type="text/css" media="screen">
         <title>Auto's</title>
-        <% 
-            Autooverzicht autoo;
+        <%            
+            Autooverzicht Aover;
             
-            autoo = new Autooverzicht();
+            Aover = new Autooverzicht();
             
         %>
     </head>
