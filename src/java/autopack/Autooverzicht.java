@@ -23,9 +23,24 @@ public class Autooverzicht {
     }
     
     
-    
-    
-    
-    
+    public String maakPagina(){
+         for(Auto auto : array)
+        {
+            html += "<div class=\"resultbox\">"
+                + "<div class=\"leftbox\">"
+                + auto.getMerk() + " " + auto.getType() + "<br />"
+                + "<img src=" + auto.getPlaatje() + ">"
+                + "</div>"
+                + "<div class=\"rightbox\">"
+                + "<label for=\"merk\">      merk: "     + auto.getMerk()  + "</label><br />"
+                + "<label for=\"model\">     model: "    + auto.getType()  + "</label><br />"
+                + "<label for=\"brandstof\"> brandstof: "+ auto.getVermogen() + "</label><br />"
+                + "<label for=\"jaarbouw\">  jaarbouw: " + auto.getCilinderinhoud()  + "</label><br />"
+                + "<label for=\"prijs\">     prijs: "    + auto.getGewicht() + "</label>"
+                + "</div>"
+                + "</div>";
+        }
+        return html;
+    }
     
 }

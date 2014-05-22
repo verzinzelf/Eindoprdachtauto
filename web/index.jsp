@@ -11,9 +11,16 @@
             
             Aover = new Autooverzicht();
             
+            Aover.addAuto();
+            
         %>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <div id="wrapper">
+            <div id ="content">
+               <%= Aover.maakPagina() %>
+            </div>
+        </div> 
+     
     </body>
 </html>

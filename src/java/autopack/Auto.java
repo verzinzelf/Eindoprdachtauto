@@ -32,7 +32,7 @@ public class Auto {
         return vermogen;
     }
     
-    public String getcilinderinhoud(){
+    public String getCilinderinhoud(){
         return cilinderinhoud;
     }
     
