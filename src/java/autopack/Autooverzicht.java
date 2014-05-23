@@ -27,16 +27,16 @@ public class Autooverzicht {
          for(Auto auto : array)
         {
             html += "<div class=\"resultbox\">"
-                + "<div class=\"leftbox\">"
+                + "<div class=\"eersterij\">"
                 + auto.getMerk() + " " + auto.getType() + "<br />"
                 + "<img src=" + auto.getPlaatje() + ">"
                 + "</div>"
-                + "<div class=\"rightbox\">"
+                + "<div class=\"tweederij\">"
                 + "<label for=\"merk\">      merk: "     + auto.getMerk()  + "</label><br />"
-                + "<label for=\"model\">     model: "    + auto.getType()  + "</label><br />"
-                + "<label for=\"brandstof\"> brandstof: "+ auto.getVermogen() + "</label><br />"
-                + "<label for=\"jaarbouw\">  jaarbouw: " + auto.getCilinderinhoud()  + "</label><br />"
-                + "<label for=\"prijs\">     prijs: "    + auto.getGewicht() + "</label>"
+                + "<label for=\"model\">     Type: "    + auto.getType()  + "</label><br />"
+                + "<label for=\"brandstof\"> vermogen: "+ auto.getVermogen() + "</label><br />"
+                + "<label for=\"jaarbouw\">  Cilinderinhoud: " + auto.getCilinderinhoud()  + "</label><br />"
+                + "<label for=\"prijs\">     Gewicht: "    + auto.getGewicht() + "</label><br />"
                 + "</div>"
                 + "</div>";
         }

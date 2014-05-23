@@ -1,7 +1,50 @@
 #wrapper{
-    
+    width: 800px;
+    height: 1000px;
+    border: solid black 1px;
+    Margin: auto;
 }
 
 #content{
+    width: 800px;
+    height: 690px;
+  //  border: solid blue 10px;
+    margin: auto;
+    margin-top: 20px;
     
 }
+
+img{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.resultbox{
+    float: left;
+    width: 800px;
+    height: auto;
+    background-color: blueviolet;
+    border-bottom: solid grey 4px;
+    
+}
+
+.eersterij{
+    width: 202px;
+    height: auto;
+    background-color: red;
+  
+}
+
+.tweederij{
+   float: left;
+   width: 202px;
+   height: auto;
+   background-color: yellow;
+}
+.tweederij label{
+//    padding-top: 20px;
+    margin-left: 40px;
+    
+    
+}   
